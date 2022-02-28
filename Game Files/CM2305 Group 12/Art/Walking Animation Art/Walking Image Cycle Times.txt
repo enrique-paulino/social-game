@@ -1,0 +1,7 @@
+"Walking 1.png" - 0.18s
+"Walking 2.png" - 0.10s
+"Walking 3.png" - 0.18s
+"Walking 4.png" - 0.10s
+"Walking 5.png" - 0.18s
+"Walking 6.png" - 0.18s
+	And repeat these 6 images until the player has stopped walking
