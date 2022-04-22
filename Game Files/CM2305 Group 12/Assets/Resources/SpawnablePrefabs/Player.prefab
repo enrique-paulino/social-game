@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 5669642138541885341}
   m_Layer: 3
   m_Name: Player Model
-  m_TagString: Untagged
+  m_TagString: Model
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,11 +282,12 @@ GameObject:
   - component: {fileID: 6078022562718705762}
   - component: {fileID: 1205971660829321467}
   - component: {fileID: 1951176794090319545}
-  - component: {fileID: 4414298556012121037}
   - component: {fileID: -3478137932946408626}
+  - component: {fileID: 4414298556012121037}
+  - component: {fileID: -9137762278850202658}
   m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -397,6 +398,22 @@ MonoBehaviour:
   showGizmos: 0
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+--- !u!114 &-3478137932946408626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113199632396479984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  animator: {fileID: 8071628724678138846}
 --- !u!114 &4414298556012121037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,8 +428,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  gamemaster: 0
+  playerBody: {fileID: 709311076682393045}
   rb: {fileID: 6078022562718705762}
   speed: 4
+  prefab: {fileID: 2113199632396479984}
   animator: {fileID: 8071628724678138846}
   currentAnim: 
   animationNames:
@@ -437,22 +457,21 @@ MonoBehaviour:
   startGameButton: {fileID: 4675264244220787156}
   DisplayName: 
   IsReady: 0
---- !u!114 &-3478137932946408626
+--- !u!114 &-9137762278850202658
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113199632396479984}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Script: {fileID: 11500000, guid: ddf57b5dd981e474bb3330662a3fdbb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  clientAuthority: 1
-  animator: {fileID: 8071628724678138846}
+  lobby: {fileID: 0}
 --- !u!1 &2519279666238987948
 GameObject:
   m_ObjectHideFlags: 0

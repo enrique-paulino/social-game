@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Mirror;
 using TMPro;
 
 namespace G12 {
     public class NetworkLobbyPlayer : NetworkBehaviour {
 
+        private NetworkManager networkManager;
+
+        [Header("General")]
+        public bool gamemaster;
+        public GameObject playerBody;
+        
+
+
+
         [Header("Movement")]
         private Vector2 movement;
         private Camera cam;
         [SerializeField] private Rigidbody2D rb;     
-        [SerializeField] private int speed;
+        [SerializeField] public int speed;
+        [SerializeField] private GameObject prefab;
 
         [Header("Animation")]
         [SerializeField] private Animator animator;
@@ -20,6 +32,7 @@ namespace G12 {
         [SerializeField] private string[] animationNames = new string[5];
 
         [Header("UI")]
+        private MainMenu mainMenu;
         [SerializeField] private GameObject lobbyUI = null;
         [SerializeField] public TMP_Text playerName = null;
         [SerializeField] private string[] playerNameTexts = new string[10];
@@ -47,7 +60,8 @@ namespace G12 {
         public override void OnStartLocalPlayer() {                     
             if (!hasAuthority) { return; }
             cam = Camera.main;
-
+            mainMenu = FindObjectOfType<MainMenu>();
+            mainMenu.gameObject.SetActive(false);
         }
 
 
@@ -58,20 +72,19 @@ namespace G12 {
 
         public override void OnStartClient() {
             Lobby.LobbyPlayers.Add(this);
-
             UpdateDisplay();
-        }
 
-        public void OnNetworkDestroy() {
-            Lobby.LobbyPlayers.Remove(this);
-            UpdateDisplay();
         }
 
         public override void OnStopClient() {
+
             if (!hasAuthority) { return; }
+            
             NetworkManager.singleton.StopClient();
             NetworkManager.singleton.StopHost();
             base.OnStopClient();
+            SceneManager.LoadScene(0);
+
         }
 
         public void OnServerConnect() {
@@ -81,6 +94,7 @@ namespace G12 {
                 player.UpdateDisplay();
             }
         }
+
 
         public void HandleReadyStatusChanged(bool oldValue, bool newValue) => UpdateDisplay();
         public void HandleDisplayNameChanged(string oldValue, string newValue) => UpdateDisplay();
@@ -110,22 +124,42 @@ namespace G12 {
         [Command]
         public void CmdReadyUp() {
             IsReady = !IsReady;
-            //if (this.IsReady) { player.playerName.color = Color.green; }
             Lobby.NotifyPlayersOfReadyState();
         }
 
         [Command]
         public void CmdStartGame() {
             if (Lobby.LobbyPlayers[0].connectionToClient != connectionToClient) { return; }
-            // Start Game
             Lobby.StartGame();
+
         }
 
+        [ClientRpc]
+        public void KillPlayer(NetworkLobbyPlayer player, Timer timer) {
+            player.playerBody.SetActive(false);
+            timer.players.Remove(player.gameObject);
+        }
+
+
+
         // Movement Start
-        private void Update() {            
+        private void Update() {
             if (!hasAuthority) { return; }
             movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             PlayAnimation();
+
+            
+
+            if (SceneManager.GetActiveScene().buildIndex != 0) { // Holds camera
+                cam = Camera.main;
+                lobbyUI.SetActive(false);
+
+
+
+            }
+
+            networkManager = FindObjectOfType<NetworkManager>();
+
         }
 
         private void FixedUpdate() {

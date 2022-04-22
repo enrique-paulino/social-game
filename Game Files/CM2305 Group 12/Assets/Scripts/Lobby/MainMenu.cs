@@ -12,6 +12,10 @@ namespace G12 {
         [SerializeField] public GameObject gameTitle = null;
         [SerializeField] public GameObject environment = null;
 
+        private void Update() {
+            networkManager = NetworkManagerLobby.FindObjectOfType<NetworkManagerLobby>();
+        }
+
         public void HostLobby() {
             networkManager.StartHost();
             landingPagePanel.SetActive(false);

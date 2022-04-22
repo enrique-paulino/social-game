@@ -13,6 +13,10 @@ namespace G12 {
         [SerializeField] private TMP_InputField ipAddressInput = null;
         [SerializeField] private Button joinButton = null;
 
+        private void Start() {
+            networkManager = FindObjectOfType<NetworkManagerLobby>();
+        }
+
         private void OnEnable() {
             NetworkManagerLobby.OnClientConnected += HandleClientConnected;
             NetworkManagerLobby.OnClientConnected += HandleClientDisconnected;
