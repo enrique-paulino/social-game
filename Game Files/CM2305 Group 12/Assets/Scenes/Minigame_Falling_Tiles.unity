@@ -2192,7 +2192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1230821568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2600,6 +2600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile BL
       objectReference: {fileID: 0}
+    - target: {fileID: 2816580909703427328, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6419572524597749221, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2693,6 +2697,10 @@ PrefabInstance:
     - target: {fileID: 2816580909703427328, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
       propertyPath: m_Name
       value: Tile TL
+      objectReference: {fileID: 0}
+    - target: {fileID: 2816580909703427328, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6419572524597749221, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
       propertyPath: m_Sprite
@@ -3044,6 +3052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TIle BR
       objectReference: {fileID: 0}
+    - target: {fileID: 2816580909703427328, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6419572524597749221, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3392,6 +3404,10 @@ PrefabInstance:
     - target: {fileID: 2816580909703427328, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
       propertyPath: m_Name
       value: Tile TR
+      objectReference: {fileID: 0}
+    - target: {fileID: 2816580909703427328, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6419572524597749221, guid: 1535c179a592ef948baa6b1d25553165, type: 3}
       propertyPath: m_Sprite

@@ -15,6 +15,7 @@ namespace G12 {
         [Header("General")]
         public bool gamemaster;
         public GameObject playerBody;
+        public Transform playerModel;
         
 
 
@@ -73,6 +74,7 @@ namespace G12 {
         public override void OnStartClient() {
             Lobby.LobbyPlayers.Add(this);
             UpdateDisplay();
+            playerBody.GetComponentInChildren<Animator>().transform.localScale = new Vector3(.34f, .34f, .34f);
 
         }
 
@@ -142,19 +144,20 @@ namespace G12 {
 
 
 
+
+
         // Movement Start
         private void Update() {
             if (!hasAuthority) { return; }
             movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             PlayAnimation();
+            
 
             
 
             if (SceneManager.GetActiveScene().buildIndex != 0) { // Holds camera
                 cam = Camera.main;
                 lobbyUI.SetActive(false);
-
-
 
             }
 
@@ -175,19 +178,25 @@ namespace G12 {
         void PlayAnimation() {
             if (movement == Vector2.zero) {
                 ChangeAnimation(animationNames[0]);
+                playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
             }
             else if (movement.x > 0) {
                 ChangeAnimation(animationNames[1]);
+                playerModel.localScale = new Vector3(-0.34f, 0.34f, 0.34f);
             }
             else if (movement.x < 0) {
-                ChangeAnimation(animationNames[2]);
-            }
-            else if (movement.y > 0) {
-                ChangeAnimation(animationNames[3]);
+                ChangeAnimation(animationNames[1]);
+                playerModel.localScale = new Vector3(0.34f, 0.34f, 0.34f);
             }
             else if (movement.y < 0) {
-                ChangeAnimation(animationNames[4]);
+                ChangeAnimation(animationNames[1]);
+                playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
             }
+            else if (movement.y > 0) {
+                ChangeAnimation(animationNames[1]);
+                playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
+            }
+            
         }
 
         void ChangeAnimation(string newAnim) {

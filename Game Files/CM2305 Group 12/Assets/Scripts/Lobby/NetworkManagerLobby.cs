@@ -137,8 +137,8 @@ namespace G12 {
                 currentTiles = new GameObject[LobbyPlayers.Count];
                 RandomPlayer();
                 ChangeColour();
+                ResetPosition();
                 ServerChangeScene("Minigame_Falling_Tiles"); // Temporary. Change to some logic to choose a random mini game
-                
 
             }
         }
@@ -166,6 +166,11 @@ namespace G12 {
 
         }
 
+        public void ResetPosition() {
+            foreach (NetworkLobbyPlayer player in LobbyPlayers) {
+                player.transform.position = Vector3.zero;
+            }
+        }
 
         // For falling tiles minigame
         public void ChangeColour() {
@@ -177,19 +182,13 @@ namespace G12 {
         }
 
         public void FindPlayerPos() {
-            for (int i=0; i < LobbyPlayers.Count; i++) {
-                RaycastHit2D hit = Physics2D.Raycast(LobbyPlayers[i].transform.position, -Vector2.up, playerMask);
-                
-
-                if (hit.collider != null) {
-                    if (hit.transform.tag != "Tile") {
-                        currentTiles[i] = null;
+            for (int i = 0; i < LobbyPlayers.Count; i++) {
+                for (int j = 0; j < tiles.Count; j++) {
+                    if (tiles[j].GetComponent<BoxCollider2D>().bounds.Contains(LobbyPlayers[i].transform.position)) {
+                        currentTiles[i] = tiles[j];
                     }
-                    else {
-                        currentTiles[i] = hit.transform.gameObject;
-                    }
-                    
                 }
+                
             }
         }
 

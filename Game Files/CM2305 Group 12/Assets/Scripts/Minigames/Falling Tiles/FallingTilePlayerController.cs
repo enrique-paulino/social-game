@@ -8,9 +8,11 @@ namespace G12 {
     public class FallingTilePlayerController : NetworkBehaviour {
 
         public NetworkManagerLobby lobby;
+        public GameObject gmText;
 
         public void Start() {
             lobby = (NetworkManagerLobby)FindObjectOfType(typeof(NetworkManagerLobby));
+            StartCoroutine(ShowRole(3));
         }
 
 
@@ -26,6 +28,16 @@ namespace G12 {
             }
             tile.GetComponent<SpriteRenderer>().color = lobby.red;
 
+        }
+
+        IEnumerator ShowRole(float seconds) {
+            gmText.SetActive(true);
+            yield return new WaitForSeconds(seconds);
+            gmText.SetActive(false);
+        }
+
+        public void ShowRoles() {
+            gmText.SetActive(true);
         }
     }
 }
