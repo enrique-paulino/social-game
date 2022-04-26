@@ -40,7 +40,9 @@ namespace G12 {
             if (SceneManager.GetActiveScene().buildIndex == 1) {
                 FindPlayerPos();
                 DeleteTiles();
+                
             }
+
             tiles = GameObject.FindGameObjectsWithTag("Tile").ToList();
         }
 
@@ -183,14 +185,25 @@ namespace G12 {
 
         public void FindPlayerPos() {
             for (int i = 0; i < LobbyPlayers.Count; i++) {
-                for (int j = 0; j < tiles.Count; j++) {
-                    if (tiles[j].GetComponent<BoxCollider2D>().bounds.Contains(LobbyPlayers[i].transform.position)) {
-                        currentTiles[i] = tiles[j];
+                foreach (GameObject eachTile in tiles) {
+                    try {
+                        if (eachTile.GetComponent<BoxCollider2D>().bounds.Contains(LobbyPlayers[i].transform.position)) {
+                            currentTiles[i] = eachTile;
+                            if (!tiles.Contains(currentTiles[i])) {
+                                currentTiles[i] = null;
+                            }
+                        }
                     }
+                    catch (Exception e) {
+                        print(e);
+                    }
+                    
                 }
                 
             }
         }
+
+
 
         public void DeleteTiles() {
             GameObject tile = currentTiles[gameMasterObject.GetComponent<NetworkLobbyPlayer>().netId - 1];
@@ -215,8 +228,10 @@ namespace G12 {
                     }
                 }
 
+                tiles.Remove(tile);
                 timer.all.Remove(tile);
                 NetworkServer.Destroy(tile);
+
 
 
 

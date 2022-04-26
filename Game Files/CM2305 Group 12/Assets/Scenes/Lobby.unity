@@ -2102,7 +2102,7 @@ MonoBehaviour:
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs: []
-  minPlayers: 1
+  minPlayers: 3
   menuScene: Assets/Scenes/Lobby.unity
   currentTiles: []
   playerMask:

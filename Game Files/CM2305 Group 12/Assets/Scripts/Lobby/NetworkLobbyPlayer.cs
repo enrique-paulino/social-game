@@ -160,7 +160,6 @@ namespace G12 {
                 lobbyUI.SetActive(false);
 
             }
-
             networkManager = FindObjectOfType<NetworkManager>();
 
         }
@@ -178,27 +177,49 @@ namespace G12 {
         void PlayAnimation() {
             if (movement == Vector2.zero) {
                 ChangeAnimation(animationNames[0]);
-                playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
+                //playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
+                transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
+                //playerName.transform.localScale = Vector3.one;
+                GameObject.Find("Player Name Canvas").transform.localScale = Vector3.one;
+
             }
             else if (movement.x > 0) {
                 ChangeAnimation(animationNames[1]);
-                playerModel.localScale = new Vector3(-0.34f, 0.34f, 0.34f);
+                //playerModel.localScale = new Vector3(-0.34f, 0.34f, 0.34f);
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+                
+
             }
             else if (movement.x < 0) {
                 ChangeAnimation(animationNames[1]);
-                playerModel.localScale = new Vector3(0.34f, 0.34f, 0.34f);
+                //playerModel.localScale = new Vector3(0.34f, 0.34f, 0.34f);
+                transform.localScale = new Vector3(1f, 1f, 1f);
+
+
             }
             else if (movement.y < 0) {
                 ChangeAnimation(animationNames[1]);
-                playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
+                //playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
+                transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
+
             }
             else if (movement.y > 0) {
                 ChangeAnimation(animationNames[1]);
-                playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
+                //playerModel.localScale = new Vector3(playerModel.localScale.x, 0.34f, 0.34f);
+                transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
+
             }
+
+            if (transform.localScale.x == -1) {
+                GameObject.Find("Player Name Canvas").transform.localScale = new Vector3(-1f, 1f, 1f);
+            } else {
+                GameObject.Find("Player Name Canvas").transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
+           
             
         }
 
+        
         void ChangeAnimation(string newAnim) {
             if (newAnim == currentAnim) return;
 

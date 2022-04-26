@@ -35,10 +35,6 @@ namespace G12 {
             yield return new WaitForSeconds(seconds);
             gmText.SetActive(false);
         }
-
-        public void ShowRoles() {
-            gmText.SetActive(true);
-        }
     }
 }
 
