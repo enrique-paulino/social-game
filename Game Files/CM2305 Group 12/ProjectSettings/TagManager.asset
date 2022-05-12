@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TipToeMain
+  - Tile
+  - FallingTileManager
+  - Model
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,8 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
-  - 
+  - GameMaster
+  - Tile
   - 
   - 
   - 

@@ -1302,7 +1302,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 63
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2092,7 +2092,7 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   serverTickRate: 64
-  offlineScene: 
+  offlineScene: Assets/Scenes/Lobby.unity
   onlineScene: Assets/Scenes/Lobby.unity
   transport: {fileID: 1273525543}
   networkAddress: localhost
@@ -2102,10 +2102,19 @@ MonoBehaviour:
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs: []
-  minPlayers: 1
+  minPlayers: 3
   menuScene: Assets/Scenes/Lobby.unity
+  currentTiles: []
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 8
   lobbyPlayerPrefab: {fileID: 4414298556012121037, guid: 5a375034e6343884f8761a172218e36c, type: 3}
   menuScript: {fileID: 1277064508}
+  gameMasterObject: {fileID: 0}
+  gamemaster: 0
+  blue: {r: 0.6745098, g: 0.8, b: 0.8862745, a: 1}
+  red: {r: 0.9150943, g: 0.79270756, b: 0.44459772, a: 1}
+  tiles: []
   playerName: 
 --- !u!4 &1273525545
 Transform:
