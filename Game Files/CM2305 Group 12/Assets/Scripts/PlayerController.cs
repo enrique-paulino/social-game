@@ -17,12 +17,9 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     string currentAnim;
     const string playerWalkLeft = "PlayerWalkLeft"; //strings are currently place holders for actual anim  names that refer to actual anims
-    const string playerWalkRight = "PlayerWalkRight";
-    const string playerWalkUp = "PlayerWalkUp";
-    const string playerWalkDown = "PlayerWalkDown";
     const string playerIdle = "PlayerIdle";
-    
-   
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -62,26 +59,20 @@ public class PlayerController : MonoBehaviour
 
     void ChooseAnim(float inputHorizontal, float inputVertical)
     {
-        //Change the following conditions to change the chosen animations
-        if (inputHorizontal == 0 && inputVertical == 0) 
+        
+        if (inputHorizontal == 0 && inputVertical == 0)
         {
             ChangeAnimation(playerIdle);
         }
         else if (inputHorizontal > 0)
         {
-            ChangeAnimation(playerWalkRight);
+            gameObject.GetComponent<Transform>().localScale = new Vector3(-0.2f, 0.3f, 0.2f);
+            ChangeAnimation(playerWalkLeft);
         }
         else if (inputHorizontal < 0)
         {
+            gameObject.GetComponent<Transform>().localScale = new Vector3(0.2f, 0.3f, 0.2f);
             ChangeAnimation(playerWalkLeft);
-        }
-        else if (inputVertical > 0)
-        {
-            ChangeAnimation(playerWalkUp);
-        }
-        else if (inputVertical < 0)
-        {
-            ChangeAnimation(playerWalkDown);
         }
     }
 
