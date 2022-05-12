@@ -36,8 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
-        print(inputHorizontal + " " + inputVertical);
-        ChooseAnim(inputHorizontal, inputVertical); //UNCOMMENT WHEN ANIMS ARE ADDED
+        ChooseAnim(inputHorizontal, inputVertical); 
     }
 
     void FixedUpdate()
