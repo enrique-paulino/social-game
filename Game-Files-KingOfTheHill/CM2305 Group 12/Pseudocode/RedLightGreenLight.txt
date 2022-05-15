@@ -1,0 +1,43 @@
+GAMEMASTER
+
+#TerrainTimer is the cooldown for the terrain traps
+#LightTimer is the cooldown for the lights
+
+	if Gamemaster clicks on Terrain and TerrainTimer <= 0
+		TerrainChange = True
+		wait 5 seconds
+		Terrain activates
+		TerrainChange = False
+		wait 5 seconds
+		Terrain deactivates
+		TerrainTimer = 10
+	
+	else
+		show warning message
+	end if
+
+	if GameMaster clicks on LightButton and LightTimer <= 0
+		LightChange = True
+		wait 2 seconds
+		change Light
+		LightChange = False
+		LightTimer = 3
+	else
+		show warning message
+	end if
+
+PLAYER
+
+	if Player moves when Light is on or Player on Terrain
+		PlayerLive =- 1
+	end if 
+
+TRAITOR extend PLAYER
+
+	if TerrainChange 
+		TerrainSilhouette appears
+	end if
+
+if LightChange
+	LightWarning apeears
+end if

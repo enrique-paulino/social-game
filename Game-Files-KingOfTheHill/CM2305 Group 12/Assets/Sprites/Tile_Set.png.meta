@@ -1,0 +1,1610 @@
+fileFormatVersion: 2
+guid: 56347239042022e4093a6bf74316a067
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fill_Wall_NW
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 4516
+        width: 407
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9387c5f6ca597d0478f6b91108d47549
+      internalID: 231789834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_NW_Small_2
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 4516
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d275749500495478be9ef5524af32a
+      internalID: -866104164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_N
+      rect:
+        serializedVersion: 2
+        x: 2462
+        y: 4523
+        width: 408
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c65351913513634d9721a9db5c38593
+      internalID: -1168027584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_4
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 4516
+        width: 407
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e8a63bbddf6e9438e01da2f42547ce
+      internalID: 1776075590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_5
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 4516
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19856902e2064c4497b511a77cad178
+      internalID: -203213981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_6
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 4516
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd27b405fc028bf4b9c8f4035632b40c
+      internalID: -766876050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_7
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 4516
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0cb2d4c787e064b923189b66d209e0
+      internalID: -591915185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_NW_Small
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 4106
+        width: 379
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb9ea91c09d0474dae47531d0b9b6bf
+      internalID: -1874183248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_NW
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 4106
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b9ef5f375eed948bae7932f88da114
+      internalID: 467088086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_10
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 4106
+        width: 1226
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b6704905a21d74487fcafd84b82ec4
+      internalID: 1532345671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_NE
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 4106
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954f0c5906e9c084a8ae2e97b797baaa
+      internalID: 10275284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_NE_S
+      rect:
+        serializedVersion: 2
+        x: 4105
+        y: 4106
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f5043b9e0088049ab992766e1980d8
+      internalID: 2053284425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_13
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 4106
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91454a67f4397e429ae27cb803b079f
+      internalID: 379984070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_14
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 4106
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579aadf21026a8a4f98ad8ddea754d28
+      internalID: 733582925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_15
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 4106
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadcdefea875eb440b2e465bc0242535
+      internalID: 601748064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_16
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 4106
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32c75bdb07a36d4d979850a0c2ce617
+      internalID: -521765019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Normal
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 3705
+        width: 395
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f5bb11248b6c2439017e3f5873a5d0
+      internalID: 68290599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_18
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 3696
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d08d57d98b33024dabf51752cf39ec6
+      internalID: -235622774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_19
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 3696
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32033174d9397454fb7487678959f5b5
+      internalID: 90805713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_20
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 3696
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ada36266c2b254b90e2eb144889b1b
+      internalID: 87633718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_21
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 3696
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7310470e39104be4d9e295179a07396a
+      internalID: -1222038776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_22
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 3285
+        width: 379
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faf698d138e7c343bf78d36abab71b1
+      internalID: -1944709430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_SW
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 3285
+        width: 407
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b253e8dc0b17fe0488e69e51b6f1fb67
+      internalID: 245160756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_SE_S
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 3296
+        width: 395
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbf94316ae1ed847a179f6278a74985
+      internalID: -963953641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_SE
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 3285
+        width: 407
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722b17112aad40f40ba4d48f6fa4db28
+      internalID: 1100028615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_26
+      rect:
+        serializedVersion: 2
+        x: 4105
+        y: 3285
+        width: 407
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bface1a1908e8fb44b0160535e55724b
+      internalID: 1284679783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_27
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 3285
+        width: 407
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f947ecf93f9f8bc44aabbb2059ac09c0
+      internalID: -1176167199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_28
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 3285
+        width: 406
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3458bc104216a24ebdfa4c3e3da41a2
+      internalID: 2067174426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_29
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 3285
+        width: 406
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab13d1ae4cd3e54cb1e631cc3858f1d
+      internalID: 1534480764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_30
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 3285
+        width: 406
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a638eb566cc61ca48988636a80814474
+      internalID: 477454676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_31
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 2875
+        width: 379
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c9c16dc015a424da33625f419ffbcc
+      internalID: -775302025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fill_Wall_SW
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2879
+        width: 407
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ca262e9c7598644b54be1c9633d964
+      internalID: -1534978018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_N
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 2663
+        width: 403
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93da3ea7036a824a8bc944b52aacfb0
+      internalID: 1088315578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Fill_SE
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 2872
+        width: 407
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489d6a995575636459b69baff026ab37
+      internalID: -528456425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_37
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 2875
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7938b5387aed83f4b9b70a8e87a33620
+      internalID: 1889072675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_38
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 2875
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a5f34e957885440a997d56c879283b
+      internalID: -1179911346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_39
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 2875
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b93a84e2fbc17648b823a9b6466ddaf
+      internalID: -1204338127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_40
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 2875
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e4f441b11a25a4080732f3adc86810
+      internalID: -1090503274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_41
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2465
+        width: 407
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b644be64bdeb6b43900234deee60bfa
+      internalID: 1647948740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_43
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 2059
+        width: 407
+        height: 812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14be0a0f63a76de4e82c70c37c96b3a2
+      internalID: -1632312390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_44
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 2059
+        width: 406
+        height: 812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac685ac3a06694e860e4bcb45a6fe3
+      internalID: -1076240510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_45
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 2059
+        width: 406
+        height: 812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d9107b7ae6f0245b5ce86b16b7b7a8
+      internalID: -1279239380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_46
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 2059
+        width: 406
+        height: 812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296ec10a56bc9434aa4f545d3d0b176d
+      internalID: 1700787078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fill_Wood_Wall
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1649
+        width: 406
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7624d708b5dcfaa47b8112795e539f5a
+      internalID: -232866418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_NW_S
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1649
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9787341020879c8458cdf89ec3834d3e
+      internalID: 1644000346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_NW
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1649
+        width: 407
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bd6441ddaa6cd45afd0c39a519c3b7
+      internalID: 1365189179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_NE_S
+      rect:
+        serializedVersion: 2
+        x: 4105
+        y: 1649
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcd1865ea16b654c8200d09151c89ac
+      internalID: 225300832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_Fill_NE
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 1649
+        width: 406
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424a7770c69385b48adb5880c9c7c396
+      internalID: -2054735188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_53
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 1649
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec5099e2926256438b5278b7b13e1df
+      internalID: 2061429240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_54
+      rect:
+        serializedVersion: 2
+        x: 6766
+        y: 1649
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7585be39d9e74b04888a63293b039daf
+      internalID: 2138344525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_55
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 1649
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5b44d66356d3f42a532a1746156127
+      internalID: 1818144566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_56
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 1649
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9277fda6737a6c4e8f9588015a9d4eb
+      internalID: -1449711054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Floor_N
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 1238
+        width: 407
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f6664299b0d8945a6994112a24d50f
+      internalID: 527911528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_NE
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 1238
+        width: 406
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c71c08066aba41a25ddd53b438902
+      internalID: -24278050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_63
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 828
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ca50f72cb74cd41813a4c14e801f84
+      internalID: -372928208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_SE
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 828
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9daea9e6cf4fbe48980472f1b480d1f
+      internalID: 409040004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_SE_S
+      rect:
+        serializedVersion: 2
+        x: 4926
+        y: 828
+        width: 406
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e48bd454f086d4597c7e973231d42d
+      internalID: -381801846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_67
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 378
+        width: 406
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1516a7175cb471749a923409e611146b
+      internalID: 1428398451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_SW
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 418
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9bde0e4ccdb0248b31f30f7658067c
+      internalID: 1409056471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_70
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 418
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d66be21ebc46484790c83418502ff84
+      internalID: -2112005677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_SE_Fill
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 613
+        width: 406
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f917ef4b94c2f5a4b88e73c549f3fce3
+      internalID: 1362602449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fill_Wood_Wall_SW
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 0
+        width: 407
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9de93e5d8d4b54988ffde9f0b6aeb8
+      internalID: 355033384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wood_Wall_SW_S
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 8
+        width: 407
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d426e0136f78294285e301fe0fb7173
+      internalID: 1696582962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_Set_75
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 13
+        width: 413
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8d71529b58d7940a4065b1c8ffef55
+      internalID: 222287880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_NE_S_2
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 4515
+        width: 394
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc1047e384bd5849aeede96b5e715b5
+      internalID: -487681671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_S
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 3293
+        width: 401
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bfe457fb4ecb44b99e171ddffe74ee
+      internalID: 2123795805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_SW_S
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 3293
+        width: 399
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e243dff5353467a42be844d73d3bb2f9
+      internalID: 986877060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tile_Set_13: 379984070
+      Tile_Set_18: -235622774
+      Tile_Set_16: -521765019
+      Tile_Set_76: -672301995
+      Wall_NE_S: 2053284425
+      Wall_SE_S: -963953641
+      Wood_Wall_SE_S: -381801846
+      Wood_Wall_N: 1088315578
+      Tile_Set_28: 2067174426
+      Tile_Set_61: -428201007
+      Wood_Wall_NE: -2054735188
+      Wood_Wall_SE_Fill: 1362602449
+      Tile_Set_14: 733582925
+      Tile_Set_45: -1279239380
+      Tile_Set_71: -473255667
+      Wall_SW_S: 986877060
+      Tile_Set_53: 2061429240
+      Wall_SE: 245160756
+      Tile_Set_6: -766876050
+      Tile_Set_20: 87633718
+      Tile_Set_27: -1176167199
+      Tile_Set_22: -1944709430
+      Top corner: -1106234294
+      Tile_Set_39: -1204338127
+      Tile_Set_31: -775302025
+      Tile_Set_56: -1449711054
+      Tile_Set_57: 1898839967
+      Tile_Set_7: -591915185
+      Wall_Fill_SE: -528456425
+      Tile_Set_70: -2112005677
+      Tile_Set_46: 1700787078
+      Wall_NW_Small_2: -866104164
+      Tile_Set_15: 601748064
+      Wood_Wall_NW: 1365189179
+      Tile_Set_63: -372928208
+      Tile_Set_68: 550461152
+      Tile_Set_41: 1647948740
+      Wood_Floor_N: 527911528
+      Wall_N: -1168027584
+      Wood_Wall_SE: 409040004
+      Tile_Set_40: -1090503274
+      Tile_Set_26: 1284679783
+      Tile_Set_44: -1076240510
+      Tile_Set_75: 222287880
+      Tile_Set_37: 1889072675
+      Wall_NE_S_2: -487681671
+      Fill_Wood_Wall: -232866418
+      Tile_Set_58: -1847299824
+      Wood_Wall_NE_S: -24278050
+      Tile_Set_55: 1818144566
+      Tile_Set_36: -278254253
+      Tile_Set_30: 477454676
+      Wall_S: 2123795805
+      Wood_Wall_SW_S: 1696582962
+      Tile_Set_50: -1385656107
+      Tile_Set_4: 1776075590
+      Wood_Wall_NW_S: 1644000346
+      Tile_Set_21: -1222038776
+      Wall_NW: 467088086
+      Wood_Wall_SW: 1409056471
+      Floor_Normal: 68290599
+      Fill_Wall_NW: 231789834
+      Tile_Set_0: -232866418
+      Wood_Wall_Fill_NE: -2054735188
+      Fill_Wall_SW: -1534978018
+      Tile_Set_10: 1532345671
+      Tile_Set_33: -119837526
+      Tile_Set_5: -203213981
+      Tile_Set_29: 1534480764
+      Tile_Set_67: 1428398451
+      Tile_Set_19: 90805713
+      Tile_Set_42: 134546232
+      Tile_Set_64: 534203047
+      Tile_Set_38: -1179911346
+      Wall_NE: 2053284425
+      Tile_Set_54: 2138344525
+      Wall_NW_Small: -1874183248
+      Tile_Set_62: 1171972620
+      Wall_SW: 245160756
+      Tile_Set_43: -1632312390
+      Fill_Wood_Wall_SW: 355033384
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
