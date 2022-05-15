@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene_Minigame_01.unity
     guid: 44efb0f3546e83348be276895dc6932e
   - enabled: 1
-    path: Assets/Scenes/KingOfTheHill2.unity
+    path: Assets/Scenes/KingOfTheHill_RunMe.unity
     guid: b1f1440880300d249ba07ce1c64d18f2
   - enabled: 0
     path: Assets/Scenes/KingOfTheHill.unity

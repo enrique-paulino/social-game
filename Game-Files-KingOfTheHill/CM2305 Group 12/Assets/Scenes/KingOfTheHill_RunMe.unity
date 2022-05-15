@@ -2718,7 +2718,7 @@ MonoBehaviour:
   autoStartServerBuild: 1
   serverTickRate: 64
   offlineScene: 
-  onlineScene: Assets/Scenes/KingOfTheHill2.unity
+  onlineScene: Assets/Scenes/KingOfTheHill_RunMe.unity
   transport: {fileID: 1273525543}
   networkAddress: localhost
   maxConnections: 10
@@ -2728,7 +2728,7 @@ MonoBehaviour:
   playerSpawnMethod: 0
   spawnPrefabs: []
   minPlayers: 1
-  menuScene: Assets/Scenes/KingOfTheHill2.unity
+  menuScene: 
   lobbyPlayerPrefab: {fileID: 4414298556012121037, guid: 5a375034e6343884f8761a172218e36c, type: 3}
   menuScript: {fileID: 1277064508}
   playerName: 
