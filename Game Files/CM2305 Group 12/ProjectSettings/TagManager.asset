@@ -7,6 +7,9 @@ TagManager:
   - Tile
   - FallingTileManager
   - Model
+  - SafeZone
+  - SpawnPoint
+  - Fire
   layers:
   - Default
   - TransparentFX
