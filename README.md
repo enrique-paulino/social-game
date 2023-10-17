@@ -1,6 +1,8 @@
-# Social Game: CM2305 Group 12
- A multiplayer 'social game' with the intention of having players communicate with each other in order to have a good gaming experience. This is why we initially chose to include many minigames, the ones we were able to create in the limited time are listed below, to provide a Fall Guys-esque experience. 
+# :joystick: Social Game: CM2305 Group 12 (University Project)
 
-## Minigames included
- - Falling Tiles
- - King of the Hill
+This project is a multiplayer 'social game' aimed at fostering engaging communication between players for an enhanced gaming experience. To mimic the spirit of Fall Guys, we included a variety of minigames, some of which are listed below.
+
+## Minigames Included
+
+- :video_game: Falling Tiles
+- :crown: King of the Hill
